@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href='style.css'>
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <h1 id='title'>Paleta de Cores</h1>
+    </header>
+    <main>
+        <!--Aqui começa a paleta de cores, feita como lista e cada list item recebe uma ID-->
+        <section id='container-paleta'>
+            <ul id='color-palette'>
+                <li class='color selected' id='black'>Preta</li>
+                <li class='color' id='blue'>Azul</li>
+                <li class='color' id='green'>Verde</li>
+                <li class='color' id='red'>Vermelha</li>
+            </ul>
+        </section>
+        <!-- Botão para pintar tudo de branco-->
+        <button id="clear-board">Limpar</button>
+        <!--Aqui começa o quadrado de pixels 5x5. Cada linha é uma div e cada div pixel é uma coluna-->
+        <section id="pixel-board">
+            <span class="line">
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+            </span>
+            <span class="line">
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+            </span>
+            <span class="line">
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+            </span>
+            <span class="line">
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+            </span>
+            <span class="line">
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+                <div class="pixel"></div>
+            </span>
+        </section>
+
+        <!--Fim do quadro em branco-->
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>

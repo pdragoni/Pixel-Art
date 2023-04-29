@@ -1,0 +1,56 @@
+body {
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+background-color: lightgray;
+}
+
+#title {
+    margin: 0.5em 0em 0.5em 0em;
+}
+
+#color-palette {
+}
+
+.color {
+color:whitesmoke;
+text-align: center;
+border: 1px solid black;
+display:inline-block;
+padding: 0.75em;
+width: 70px;
+height: 20px;
+border-radius: 20px;
+}
+
+#black {
+    background-color:black;
+}
+
+#blue {
+    background-color:navy;
+}   
+
+#green {
+    background-color:darkgreen;
+}   
+
+#red {
+    background-color:red;
+}    
+
+#pixel-board {
+width: 400px;
+}
+
+.pixel {
+border: 1px black solid;
+background-color: white;
+padding: 1em;
+width: 40px;
+height: 40px;
+display:inline-block;
+}
+button {
+    background-color: antiquewhite;
+    color: black;
+    font-weight: 400;
+}
